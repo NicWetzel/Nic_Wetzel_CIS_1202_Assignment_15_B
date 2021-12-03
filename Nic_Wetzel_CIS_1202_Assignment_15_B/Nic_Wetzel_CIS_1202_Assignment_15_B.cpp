@@ -11,7 +11,10 @@ template <typename T>
 // Function to find half of each value passed
 T half(T value)
 {
+    T result;
+    result = value / 2;
 
+    return result;
 }
 
 
